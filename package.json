@@ -37,16 +37,16 @@
     "documentation",
     "zlib"
   ],
-  "author": "Devansh Thakur",
+  "author": "Divyansh Mehta",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devth/merpako.git"
+    "url": "git+https://github.com/divyanshmehta355/merpako.git"
   },
   "bugs": {
-    "url": "https://github.com/devth/merpako/issues"
+    "url": "https://github.com/divyanshmehta355/merpako/issues"
   },
-  "homepage": "https://github.com/devth/merpako#readme",
+  "homepage": "https://github.com/divyanshmehta355/merpako#readme",
   "files": [
     "bin",
     "lib",

@@ -329,7 +329,7 @@ const { content: rawMarkdown } = revertMarkdown(content);
 
 ```bash
 # Clone repository
-git clone https://github.com/devth/merpako.git
+git clone https://github.com/divyanshmehta355/merpako.git
 cd merpako
 
 # Run unit tests (offline & deterministic)
@@ -349,4 +349,4 @@ npm pack --dry-run
 
 ## 📄 License
 
-[MIT](LICENSE) © [Devansh Thakur](https://github.com/devth)
+[MIT](LICENSE) © [Divyansh Mehta](https://github.com/divyanshmehta355)
