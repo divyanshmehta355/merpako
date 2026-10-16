@@ -1,6 +1,6 @@
 {
   "name": "merpako",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform Mermaid code blocks in Markdown files into clickable SVG diagrams with interactive editor links.",
   "type": "module",
   "bin": {
