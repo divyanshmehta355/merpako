@@ -4,7 +4,7 @@
   "description": "Transform Mermaid code blocks in Markdown files into clickable SVG diagrams with interactive editor links.",
   "type": "module",
   "bin": {
-    "merpako": "./bin/merpako.js"
+    "merpako": "bin/merpako.js"
   },
   "main": "./lib/index.js",
   "exports": {
@@ -36,7 +36,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devth/merpako.git"
+    "url": "git+https://github.com/devth/merpako.git"
   },
   "bugs": {
     "url": "https://github.com/devth/merpako/issues"
