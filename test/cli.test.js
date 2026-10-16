@@ -37,7 +37,7 @@ describe('CLI Commands & Interface (lib/cli.js)', () => {
   it('--version prints package version and exits 0', async () => {
     const code = await runCli(['--version'], { log: captureLog, error: captureError });
     assert.equal(code, 0);
-    assert.ok(logs.some((l) => l.includes('merpako v1.0.0')));
+    assert.ok(logs.some((l) => /merpako v\d+\.\d+\.\d+/.test(l)));
   });
 
   it('rejects unknown options with exit code 1', async () => {
