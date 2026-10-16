@@ -1,0 +1,51 @@
+{
+  "name": "merpako",
+  "version": "1.0.0",
+  "description": "Transform Mermaid code blocks in Markdown files into clickable SVG diagrams with interactive editor links.",
+  "type": "module",
+  "bin": {
+    "merpako": "./bin/merpako.js"
+  },
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "test:live": "node --test --test-name-pattern=\"Live\" test/live.test.js",
+    "check": "node bin/merpako.js --check .",
+    "smoke": "node bin/merpako.js --version && node bin/merpako.js --help"
+  },
+  "keywords": [
+    "mermaid",
+    "markdown",
+    "svg",
+    "pako",
+    "diagram",
+    "diagrams",
+    "cli",
+    "github",
+    "documentation",
+    "zlib"
+  ],
+  "author": "Devansh Thakur",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devth/merpako.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devth/merpako/issues"
+  },
+  "homepage": "https://github.com/devth/merpako#readme",
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ]
+}
